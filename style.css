@@ -1,0 +1,42 @@
+*{
+    background-color: lightpink;
+}
+.container{
+    height: calc(90vh);
+    width: calc(75vw);
+    margin-left: 12%;
+    margin-top: 2%;
+    border: 2px solid orangered;
+}
+.balloon, .balloon2, .balloon3, .balloon4, .balloon5, .balloon6, .balloon7, .balloon8, .balloon9, .balloon10, .balloon11, .balloon12,
+.balloon13, .balloon14, .balloon15, .balloon16, .balloon17, .balloon18, .balloon19, .balloon20, .balloon21, .balloon22, .balloon23,
+.balloon24 ,.balloon25, .balloon26, .balloon27, .balloon28, .balloon29, .balloon30, .balloon31, .balloon32, .balloon33, .balloon34,
+.balloon35{
+    display: inline-block;
+    height: 100px;
+    width: 85px;
+    border-radius: 80%;
+    /* border: 2px solid crimson; */
+    box-shadow: inset -8px -8px 0 rgba(44, 44, 44, 0.2);
+    background-color: aqua;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.balloon, .balloon10, .balloon24, .balloon29, .balloon33{
+    background-color: purple;
+}
+.balloon16, .balloon21, .balloon25, .balloon30, .balloon34{
+    background-color: chocolate;
+}
+.balloon2, .balloon12, .balloon26, .balloon18, .balloon35{
+    background-color: crimson;
+}
+.balloon3, .balloon13, .balloon27, .balloon32, .balloon23{
+    background-color: deeppink;
+}
+.balloon4, .balloon14, .balloon28, .balloon6, .balloon9{
+    background-color: green;
+}
+.balloon7,.balloon8,.balloon17,.balloon20,.balloon22{
+    background-color: yellow;
+}
